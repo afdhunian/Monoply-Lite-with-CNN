@@ -25,7 +25,7 @@ sedangkan aturan game dan tampilan dikerjakan oleh logika Verilog biasa.
 | Lokasi | Isi |
 |---|---|
 | [`progress.md`](progress.md) | Catatan perkembangan proyek |
-| [`progress/`](progress) | Dokumen rancangan (docx) dan gambar pendukung |
+| [`dokumentasi/`](dokumentasi) | Dokumen rancangan (docx) dan gambar pendukung |
 
 ## Rencana pengerjaan
 1. Perancangan sistem dan aturan game (sedang berjalan)
