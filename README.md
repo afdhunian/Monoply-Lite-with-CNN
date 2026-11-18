@@ -1,6 +1,8 @@
 # Monopoly Lite with CNN Dice Recognition on FPGA
-**Nama: Muhamad Afdhu**
-**NIM : 101022330171**
+
+**Nama:** Muhamad Afdhu
+**NIM :** 101022330171
+
 Papan Monopoly Lite digital di layar VGA. Pemain melempar **dadu fisik** ke tray,
 **CNN yang berjalan di FPGA** membaca angkanya lewat kamera, lalu FSM Verilog
 mengurus giliran, uang, sewa, dan tampilan. Tanpa komputer dan tanpa internet.
