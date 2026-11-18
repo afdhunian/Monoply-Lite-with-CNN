@@ -1,0 +1,11 @@
+{
+  "img_size": 32,
+  "n_train": 734,
+  "n_val": 131,
+  "n_test": 99,
+  "acc_float": 0.898989898989899,
+  "acc_int8": 0.898989898989899,
+  "margin_thresh": 20943,
+  "accepted_pct_test": 81.81818181818183,
+  "acc_on_accepted_test": 0.9382716049382716
+}
