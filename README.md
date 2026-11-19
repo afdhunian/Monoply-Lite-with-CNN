@@ -1,8 +1,11 @@
 # 🎲 Monopoly Lite with CNN Dice Recognition on FPGA
 
-\<p align="center">   \<b>An FPGA-Based Digital Monopoly Game Powered by Convolutional Neural Network\</b> \</p>
+**An FPGA-Based Digital Monopoly Game Powered by Convolutional Neural Network**
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Platform-FPGA-blue?style=for-the-badge](https://img.shields.io/badge/Platform-FPGA-blue?style=for-the-badge)">   \<img src="[https://img.shields.io/badge/Language-Verilog-green?style=for-the-badge](https://img.shields.io/badge/Language-Verilog-green?style=for-the-badge)">   \<img src="[https://img.shields.io/badge/AI-CNN-orange?style=for-the-badge](https://img.shields.io/badge/AI-CNN-orange?style=for-the-badge)">   \<img src="[https://img.shields.io/badge/Board-DE10--Standard-purple?style=for-the-badge](https://img.shields.io/badge/Board-DE10--Standard-purple?style=for-the-badge)"> \</p>
+![FPGA](https://img.shields.io/badge/Platform-FPGA-blue?style=flat-square)
+![Verilog](https://img.shields.io/badge/Language-Verilog-green?style=flat-square)
+![CNN](https://img.shields.io/badge/AI-CNN-orange?style=flat-square)
+![DE10 Standard](https://img.shields.io/badge/Board-DE10--Standard-purple?style=flat-square)
 
 ---
 
@@ -18,17 +21,17 @@ The project aims to develop an interactive Monopoly-style game using the **Teras
 
 ### Project Information
 
-| Category                      | Description                  |
-| ----------------------------- | ---------------------------- |
-| Project Name                  | Monopoly Lite with CNN       |
-| Platform                      | Terasic DE10-Standard        |
-| FPGA Device                   | Cyclone V SoC                |
-| AI Algorithm                  | Convolutional Neural Network |
-| Hardware Description Language | Verilog HDL                  |
-| Display Interface             | VGA                          |
-| Dice Classification           | 6 Classes (1–6)              |
-| Number of Players             | 2 Players                    |
-| Development Status            | In Progress                  |
+| Category | Description |
+|---|---|
+| Project Name | Monopoly Lite with CNN |
+| Platform | Terasic DE10-Standard |
+| FPGA Device | Cyclone V SoC |
+| AI Algorithm | Convolutional Neural Network |
+| Hardware Description Language | Verilog HDL |
+| Display Interface | VGA |
+| Dice Classification | 6 Classes (1–6) |
+| Number of Players | 2 Players |
+| Development Status | In Progress |
 
 ---
 
@@ -89,9 +92,7 @@ The development process includes:
 
 ### 3.1 CNN Training Results
 
-The following image shows the training results of the CNN model.
-
-
+![CNN Training Results](dokumentasi/training_results/hasil%20training%20cnn.png)
 
 *Figure 1. CNN training results.*
 
@@ -101,11 +102,11 @@ The model evaluation includes a comparison between Float and INT8 quantized impl
 
 **Float Model**
 
-
+![Float Confusion Matrix](dokumentasi/training_results_ke2/confusion_matrix_float.png)
 
 **INT8 Quantized Model**
 
-
+![INT8 Confusion Matrix](dokumentasi/training_results_ke2/confusion_matrix_int8.png)
 
 *Figure 2. Comparison of classification performance between Float and INT8 models.*
 
@@ -121,31 +122,31 @@ The classification system is designed to recognize six different dice values.
 
 **Mapping Process 1**
 
-
+![Mapping 1](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201211.png)
 
 **Mapping Process 2**
 
-
+![Mapping 2](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201229.png)
 
 **Mapping Process 3**
 
-
+![Mapping 3](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201244.png)
 
 **Mapping Process 4**
 
-
+![Mapping 4](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201305.png)
 
 **Mapping Process 5**
 
-
+![Mapping 5](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201354.png)
 
 **Mapping Process 6**
 
-
+![Mapping 6](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201412.png)
 
 **Mapping Process 7**
 
-
+![Mapping 7](dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201444.png)
 
 ---
 
@@ -157,7 +158,7 @@ The CNN hardware implementation uses fixed-point INT8 representation to support 
 
 The Multiply-Accumulate (MAC) unit is an important computational component in CNN processing.
 
-
+![MAC INT8 Waveform](dokumentasi/MAC%20int8%20Waveform/Screenshot%202026-11-18%20221834.png)
 
 *Figure 3. MAC INT8 waveform simulation.*
 
@@ -167,15 +168,15 @@ This section contains documentation of the exported CNN model weights used for h
 
 **Weight Documentation 1**
 
-
+![Weight 1](dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200758.png)
 
 **Weight Documentation 2**
 
-
+![Weight 2](dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200824.png)
 
 **Weight Documentation 3**
 
-
+![Weight 3](dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200837.png)
 
 ---
 
@@ -183,37 +184,35 @@ This section contains documentation of the exported CNN model weights used for h
 
 Questa Testbench is used to document the simulation and verification process of the hardware modules.
 
-The following images present the simulation documentation.
-
 ### Simulation Documentation
 
 **Simulation 1**
 
-
+![Questa Simulation 1](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213716.png)
 
 **Simulation 2**
 
-
+![Questa Simulation 2](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213832.png)
 
 **Simulation 3**
 
-
+![Questa Simulation 3](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213905.png)
 
 **Simulation 4**
 
-
+![Questa Simulation 4](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213933.png)
 
 **Simulation 5**
 
-
+![Questa Simulation 5](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213957.png)
 
 **Simulation 6**
 
-
+![Questa Simulation 6](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20214017.png)
 
 **Simulation 7**
 
-
+![Questa Simulation 7](dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20214636.png)
 
 ---
 
@@ -221,23 +220,23 @@ The following images present the simulation documentation.
 
 ### Hardware
 
-| Component             | Function                        |
-| --------------------- | ------------------------------- |
-| Terasic DE10-Standard | Main FPGA development board     |
-| Cyclone V SoC         | Hardware processing platform    |
-| Camera                | Physical dice image acquisition |
-| VGA Monitor           | Game interface visualization    |
-| Physical Dice         | Gameplay input                  |
+| Component | Function |
+|---|---|
+| Terasic DE10-Standard | Main FPGA development board |
+| Cyclone V SoC | Hardware processing platform |
+| Camera | Physical dice image acquisition |
+| VGA Monitor | Game interface visualization |
+| Physical Dice | Gameplay input |
 
 ### Software and Development Tools
 
-| Software            | Function                             |
-| ------------------- | ------------------------------------ |
-| Python              | CNN development and preprocessing    |
-| Jupyter Notebook    | Model training and experimentation   |
-| Intel Quartus Prime | FPGA design and synthesis            |
-| Verilog HDL         | Digital hardware implementation      |
-| Questa              | Hardware simulation and verification |
+| Software | Function |
+|---|---|
+| Python | CNN development and preprocessing |
+| Jupyter Notebook | Model training and experimentation |
+| Intel Quartus Prime | FPGA design and synthesis |
+| Verilog HDL | Digital hardware implementation |
+| Questa | Hardware simulation and verification |
 
 ---
 
@@ -281,18 +280,18 @@ Monopoly-Lite-with-CNN/
 
 ## 9. Development Roadmap
 
-| No. | Development Stage                  | Status      |
-| --- | ---------------------------------- | ----------- |
-| 1   | System design and game rules       | In Progress |
-| 2   | Dataset preparation                | In Progress |
-| 3   | CNN training and evaluation        | In Progress |
-| 4   | CNN weight export and quantization | In Progress |
-| 5   | Verilog hardware implementation    | In Progress |
-| 6   | Questa simulation and verification | In Progress |
-| 7   | FPGA integration                   | Planned     |
-| 8   | Camera and CNN integration         | Planned     |
-| 9   | VGA game interface implementation  | Planned     |
-| 10  | Final system testing               | Planned     |
+| No. | Development Stage | Status |
+|---|---|---|
+| 1 | System design and game rules | In Progress |
+| 2 | Dataset preparation | In Progress |
+| 3 | CNN training and evaluation | In Progress |
+| 4 | CNN weight export and quantization | In Progress |
+| 5 | Verilog hardware implementation | In Progress |
+| 6 | Questa simulation and verification | In Progress |
+| 7 | FPGA integration | Planned |
+| 8 | Camera and CNN integration | Planned |
+| 9 | VGA game interface implementation | Planned |
+| 10 | Final system testing | Planned |
 
 ---
 
@@ -313,11 +312,13 @@ The completed system will be evaluated based on the following parameters:
 
 **Muhamad Afdhu**
 
-Electrical Engineering
+Electrical Engineering  
 Telkom University
 
 Student ID: 101022330171
 
 ---
 
-\<p align="center">   \<b>Monopoly Lite with CNN Dice Recognition on FPGA\</b>   \<br>   \<i>Integrating Artificial Intelligence with FPGA-Based Digital Systems.\</i> \</p>
+**Monopoly Lite with CNN Dice Recognition on FPGA**
+
+*Integrating Artificial Intelligence with FPGA-Based Digital Systems.*
