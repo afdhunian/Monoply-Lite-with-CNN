@@ -92,7 +92,7 @@ The development process includes:
 
 ### 3.1 CNN Training Results
 
-![CNN Training Results](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/training_results/hasil%20training%20cnn.png)
+![CNN Training Results](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/training_results/hasil%20training%20cnn.png)
 
 *Figure 1. CNN training results.*
 
@@ -102,11 +102,11 @@ The model evaluation includes a comparison between Float and INT8 quantized impl
 
 **Float Model**
 
-![Float Confusion Matrix](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/training_results_ke2/confusion_matrix_float.png)
+![Float Confusion Matrix](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/training_results_ke2/confusion_matrix_float.png)
 
 **INT8 Quantized Model**
 
-![INT8 Confusion Matrix](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/training_results_ke2/confusion_matrix_int8.png)
+![INT8 Confusion Matrix](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/training_results_ke2/confusion_matrix_int8.png)
 
 *Figure 2. Comparison of classification performance between Float and INT8 models.*
 
@@ -122,31 +122,31 @@ The classification system is designed to recognize six different dice values.
 
 **Mapping Process 1**
 
-![Mapping 1](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201211.png)
+![Mapping 1](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201211.png)
 
 **Mapping Process 2**
 
-![Mapping 2](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201229.png)
+![Mapping 2](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201229.png)
 
 **Mapping Process 3**
 
-![Mapping 3](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201244.png)
+![Mapping 3](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201244.png)
 
 **Mapping Process 4**
 
-![Mapping 4](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201305.png)
+![Mapping 4](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201305.png)
 
 **Mapping Process 5**
 
-![Mapping 5](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201354.png)
+![Mapping 5](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201354.png)
 
 **Mapping Process 6**
 
-![Mapping 6](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201412.png)
+![Mapping 6](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201412.png)
 
 **Mapping Process 7**
 
-![Mapping 7](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201444.png)
+![Mapping 7](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Mapping%20kelas/Screenshot%202026-11-18%20201444.png)
 
 ---
 
@@ -158,7 +158,7 @@ The CNN hardware implementation uses fixed-point INT8 representation to support 
 
 The Multiply-Accumulate (MAC) unit is an important computational component in CNN processing.
 
-![MAC INT8 Waveform](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/MAC%20int8%20Waveform/Screenshot%202026-11-18%20221834.png)
+![MAC INT8 Waveform](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/MAC%20int8%20Waveform/Screenshot%202026-11-18%20221834.png)
 
 *Figure 3. MAC INT8 waveform simulation.*
 
@@ -168,51 +168,51 @@ This section contains documentation of the exported CNN model weights used for h
 
 **Weight Documentation 1**
 
-![Weight 1](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200758.png)
+![Weight 1](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200758.png)
 
 **Weight Documentation 2**
 
-![Weight 2](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200824.png)
+![Weight 2](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200824.png)
 
 **Weight Documentation 3**
 
-![Weight 3](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200837.png)
+![Weight 3](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/data%20hasil%20bobot/Screenshot%202026-11-18%20200837.png)
 
 ---
 
 ## 6. Questa Testbench Simulation
 
-Questa Testbench is used to document the simulation and verification process of the hardware modules.
+This section presents the simulation and verification documentation of the CNN hardware implementation using Questa.
 
 ### Simulation Documentation
 
 **Simulation 1**
 
-![Questa Simulation 1](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213716.png)
+![Questa Simulation 1](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20213716.png)
 
 **Simulation 2**
 
-![Questa Simulation 2](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213832.png)
+![Questa Simulation 2](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20213832.png)
 
 **Simulation 3**
 
-![Questa Simulation 3](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213905.png)
+![Questa Simulation 3](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20213905.png)
 
 **Simulation 4**
 
-![Questa Simulation 4](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213933.png)
+![Questa Simulation 4](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20213933.png)
 
 **Simulation 5**
 
-![Questa Simulation 5](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20213957.png)
+![Questa Simulation 5](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20213957.png)
 
 **Simulation 6**
 
-![Questa Simulation 6](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20214017.png)
+![Questa Simulation 6](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20214017.png)
 
 **Simulation 7**
 
-![Questa Simulation 7](https://raw.githubusercontent.com/afdhunian/Monopoly-Lite-with-CNN/main/dokumentasi/Questa%20Testbench/Screenshot%202026-11-18%20214636.png)
+![Questa Simulation 7](https://raw.githubusercontent.com/afdhunian/Monoply-Lite-with-CNN/main/dokumentasi/Questa%20Testbanch/Screenshot%202026-11-18%20214636.png)
 
 ---
 
@@ -243,7 +243,7 @@ Questa Testbench is used to document the simulation and verification process of 
 ## 8. Repository Structure
 
 ```text
-Monopoly-Lite-with-CNN/
+Monoply-Lite-with-CNN/
 │
 ├── Python/
 │   ├── Training_CNN_Dadu_Monopoly_Lite_ke2.ipynb
@@ -262,7 +262,7 @@ Monopoly-Lite-with-CNN/
 ├── dokumentasi/
 │   ├── MAC int8 Waveform/
 │   ├── Mapping kelas/
-│   ├── Questa Testbench/
+│   ├── Questa Testbanch/
 │   ├── data hasil bobot/
 │   ├── training_results/
 │   ├── training_results_ke2/
